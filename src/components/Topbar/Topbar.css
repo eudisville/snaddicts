@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.bar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color:  white;
+    height: 4vh;
+}
+
+.bar h5 {
+    font-weight: 100;
+}
+
+@media screen and (max-width: 767px) {
+    .bar {
+        height: 6vh;
+        flex-direction: column;
+        justify-content: center;
+        background-color: gainsboro;
+        color: black;
+        display: none;
+    }
+}

@@ -1,0 +1,119 @@
+.product-list {
+    padding: 40px 20px;
+    gap: 70px;
+    flex-wrap: wrap;
+    display: flex;
+    height: 100vh;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.product-image img{
+    width: 750px; /* Prend toute la largeur de la carte */
+    height: 750px; /* Hauteur fixe pour l'image */
+    object-fit: cover; /* Couvre l'espace de l'image tout en conservant les proportions */
+    border-radius: 5px;
+}
+
+.product-detail {
+    width: 100%;
+    padding: 30px;
+}
+
+.product-detail h1 {
+    font-size: 54px;
+    margin-bottom: 50px;
+}
+
+.description {
+    line-height: 27px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.stock {
+    font-size: 14px;
+}
+
+.price {
+    margin-top: 100px;
+    font-size: 54px;
+    align-items: center;
+}
+
+.price span {
+    font-size: 18px;
+    color: gray;
+}
+
+.book {
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: yellow;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.book:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+@media screen and (max-width: 768px) {
+    .product-list {
+        height: auto;
+    }
+
+    .product-details {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .product-image img {
+        height: 380px;
+        width: 380px;
+        margin-bottom: 40px;
+    }
+
+    .product-detail {
+        padding: 0;
+    }
+
+    .product-detail h1 {
+        margin-bottom: 20px;
+    }
+
+    .description {
+        font-size: 22px;
+        color: rgb(75, 75, 75);
+        margin-bottom: 20px ;
+    }
+
+    .price {
+        margin-top: 60px;
+        font-size: 36px;
+        align-items: center;
+    }
+    
+    .price span {
+        font-size: 18px;
+        color: gray;
+    }
+
+    .book {
+        width: 100%u;
+    }
+}

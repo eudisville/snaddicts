@@ -1,0 +1,44 @@
+.card-image {
+    width: 280px; /* Prend toute la largeur de la carte */
+    height: 280px; /* Hauteur fixe pour l'image */
+    object-fit: cover; /* Couvre l'espace de l'image tout en conservant les proportions */
+    border-radius: 5px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    color: #000;
+    margin-top: 3px;
+  }
+  
+  .card-stock {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 30px;
+  }
+
+  .details-link {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 15px 20px;
+    border-radius: 8px;
+  }
+
+  .details-link:hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+  }
+
+@media screen and (max-width: 767px) {
+  .card-image {
+    width: 350px;
+  }
+}
