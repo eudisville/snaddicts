@@ -50,7 +50,7 @@ const product = [
         description: "Une nouvelle chaussure",
         price: "30 000",
         imageUrl: "curry.png",
-        category: "Under Amour",
+        category: "Under Armour",
         inStock: false
     },
     {

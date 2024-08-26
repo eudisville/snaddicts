@@ -31,6 +31,10 @@
     text-decoration: none;
 }
 
+.nav-links li:hover {
+    color: gainsboro;
+}
+
 .nav-icons {
     display: flex;
     gap: 30px;

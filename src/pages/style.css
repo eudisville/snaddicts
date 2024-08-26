@@ -2,7 +2,9 @@
     padding: 40px 20px;
     gap: 70px;
     flex-wrap: wrap;
+    flex-direction: column;
     display: flex;
+    align-items: center;
     height: 100vh;
 }
 
@@ -14,9 +16,9 @@
 }
 
 .product-image img{
-    width: 750px; /* Prend toute la largeur de la carte */
-    height: 750px; /* Hauteur fixe pour l'image */
-    object-fit: cover; /* Couvre l'espace de l'image tout en conservant les proportions */
+    width: 750px;
+    height: 750px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -51,6 +53,10 @@
     color: gray;
 }
 
+.btn {
+    flex-wrap: wrap;
+}
+
 .book {
     margin-top: 30px;
     padding: 20px 30px;
@@ -58,14 +64,36 @@
     font-weight: bold;
     text-transform: uppercase;
     background-color: yellow;
-    border: none;
+    border: 1px solid yellow;
     border-radius: 50px;
     cursor: pointer;
 }
 
 .book:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.back {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 20px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
     background-color: black;
     color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
     transition: .5s;
 }
 
@@ -94,10 +122,11 @@
 
     .product-detail h1 {
         margin-bottom: 20px;
+        font-size: 42px;
     }
 
     .description {
-        font-size: 22px;
+        font-size: 18px;
         color: rgb(75, 75, 75);
         margin-bottom: 20px ;
     }
@@ -113,7 +142,16 @@
         color: gray;
     }
 
+    .btn {
+        flex-direction: column;
+    }
+
     .book {
-        width: 100%u;
+        width: 100%;
+    }
+
+    .back {
+        width: 100%;
+        margin: 10px 0;
     }
 }

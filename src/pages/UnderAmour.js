@@ -5,15 +5,15 @@ import Cards from '../components/Cards/Card';
 import Footer from '../components/Footer/Footer';
 import './style.css'
 
-const Nike = () => {
+const UnderAmour = () => {
 
-  const nikeProducts = product.filter(item => item.category === 'Nike');
+  const underAmourProducts = product.filter(item => item.category === 'Under Armour');
 
   return (
     <div>
         <Nav />
         <div className="product-list">
-            {nikeProducts.map(item => (
+            {underAmourProducts.map(item => (
             <Cards key={item.id} product={item} />
             ))}
         </div>
@@ -22,4 +22,4 @@ const Nike = () => {
   );
 };
 
-export default Nike;
+export default UnderAmour;

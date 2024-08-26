@@ -8,7 +8,7 @@ const navItems = [
     { name: "New Balance", id: "/new-balance" },
     { name: "Converse", id: "/converse" },
     { name: "Puma", id: "/puma" },
-    { name: "Under Armour", id: "/under-armour" }, // Correction orthographique : Amour -> Armour
+    { name: "Under Armour", id: "/under-armour" },
 ];
 
 function Nav() {
