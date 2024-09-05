@@ -7,17 +7,19 @@
 
 .bar {
     width: 100%;
-    background-color: black;
+    background-color: gainsboro;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-    color:  white;
+    color:  black;
     height: 4vh;
 }
 
-.bar h5 {
+.bar a {
     font-weight: 100;
+    text-decoration: none;
+    color: black;
 }
 
 @media screen and (max-width: 767px) {
