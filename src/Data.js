@@ -1,10 +1,10 @@
 const product = [
     {
         id: 1,
-        name: "Nike Sb Dunk Low White Gum",
+        name: "Air Jordan 1 Gym Red",
         description: "La Nike SB Dunk Low Pro reprend le look emblématique de la Dunk dans une coupe basse. L'unité Zoom Air dans le talon et la languette matelassée procurent un confort optimal pour pratiquer le skate.",
-        price: "30 000",
-        imageUrl: "sb.jpg",
+        price: "20 000",
+        imageUrl: "gym red.jpg",
         category: "Nike",
         inStock: true
     },
@@ -19,19 +19,19 @@ const product = [
     },
     {
         id: 3,
-        name: "Nike Travis Scott",
+        name: "Air Jordan 1 x Travis Scott",
         description: "Une nouvelle chaussure",
         price: "30 000",
-        imageUrl: "j1tc.jpg",
+        imageUrl: "travis scott.jpg",
         category: "Nike",
         inStock: false
     },
     {
         id: 4,
-        name: "Nike Jordan 1",
+        name: "Nike Dunk Low Midas Gold",
         description: "Une nouvelle chaussure",
-        price: "54 000",
-        imageUrl: "j1.png",
+        price: "24 000",
+        imageUrl: "midas gold.jpg",
         category: "Nike",
         inStock: true
     },
@@ -78,6 +78,42 @@ const product = [
         price: "64 000",
         imageUrl: "samba.jpg",
         category: "Adidas",
+        inStock: true
+    },
+    {
+        id: 10,
+        name: "Nike SB Dunk Low Premium QS",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "25 000",
+        imageUrl: "premium.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 11,
+        name: "Nike Dunk Low",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "20 000",
+        imageUrl: "dunk.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 12,
+        name: "Nike Dunk Low SP Brazil",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "28 000",
+        imageUrl: "sp.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 13,
+        name: "Air Jordan 1 OG 'Voodoo'",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "28 000",
+        imageUrl: "voodoo.jpg",
+        category: "Nike",
         inStock: true
     },
 ]
