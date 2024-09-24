@@ -116,6 +116,51 @@ const product = [
         category: "Nike",
         inStock: true
     },
+    {
+        id: 14,
+        name: "Nike Dunk Low Jarritos",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "28 000",
+        imageUrl: "jarritos.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 15,
+        name: "Nike Dunk Low Purple Pigeon",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "28 000",
+        imageUrl: "purple.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 16,
+        name: "Nike Air Jordan 1 Midnight Navy",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "26 000",
+        imageUrl: "navy.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 17,
+        name: "Nike Air Jordan 1 x Travis Scott",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "33 000",
+        imageUrl: "olive.jpg",
+        category: "Nike",
+        inStock: true
+    },
+    {
+        id: 18,
+        name: "Nike Air Jordan 1 SP Retro Mocha",
+        description: "Née sur les terrains de football, la Samba est désormais une icône streetwear intemporelle. Cette silhouette reste fidèle à son héritage, avec une tige en cuir souple basse et élégante, des empiècements en suède et une semelle en gomme, qui en font un essentiel de tous les dressings.",
+        price: "30 000",
+        imageUrl: "mocha.jpg",
+        category: "Nike",
+        inStock: true
+    },
 ]
 
 export { product };

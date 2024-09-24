@@ -1,6 +1,6 @@
 .product-list {
     padding: 40px 20px;
-    gap: 120px;
+    gap: 110px;
     flex-wrap: wrap;
     display: flex;
     height: auto;
